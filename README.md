@@ -65,6 +65,7 @@ If you experience **slow internet** or **repository connection issues**, update 
 ```bash
 echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
 echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf > /dev/null
+```
 
 ✅ This will:
 
@@ -74,11 +75,12 @@ Set 8.8.4.4 as the secondary DNS server.
 
 
 📌 If the issue persists, try using Cloudflare’s DNS:
+```bash
 
 echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf > /dev/null
 echo "nameserver 1.0.0.1" | sudo tee -a /etc/resolv.conf > /dev/null
 
-
+````
 ---
 
 🔄 Update & Upgrade System
@@ -86,21 +88,22 @@ echo "nameserver 1.0.0.1" | sudo tee -a /etc/resolv.conf > /dev/null
 Ensure your system is fully updated to avoid compatibility issues.
 
 🔹 Run this command:
-
+```bash
 sudo apt update -y && sudo apt upgrade -y
-
+````
 📌 What this does:
-
+```bash
 apt update → Updates package lists.
-
+```
+```bash
 apt upgrade → Installs the latest versions of all packages.
-
+```
 
 ⚠️ If you get an error about a locked package manager:
-
+```bash
 sudo rm /var/lib/dpkg/lock /var/lib/dpkg/lock-frontend
 sudo dpkg --configure -a
-
+```
 
 ---
 
@@ -109,16 +112,17 @@ sudo dpkg --configure -a
 Install important tools like Python’s package manager and Chromium browser.
 
 🔹 Run these commands:
-
+```bash
 sudo apt install -y python3-pip
 sudo apt install -y chromium
-
+````
 📌 Why?
-
+```bash
 python3-pip → Manages Python libraries.
-
+```
+```bash
 chromium → A lightweight browser for web automation.
-
+```
 
 
 ---
@@ -128,16 +132,30 @@ chromium → A lightweight browser for web automation.
 Install required Python packages using pip.
 
 🔹 Run these commands:
-
+```bash
 pip install selenium --break-system-packages
+```
+```bash
 pip install playwright --break-system-packages
+```
+```bash
 pip install requests --break-system-packages
+```
+```bash
 pip install flask --break-system-packages
+```
+```bash
 pip install flask-cors --break-system-packages
+```
+```bash
 pip install werkzeug --break-system-packages
+```
+```bash
 pip install colorama --break-system-packages
+```
+```bash
 pip install art --break-system-packages
-
+```
 📌 What they do:
 
 selenium → Browser automation
@@ -180,23 +198,24 @@ playwright install
 
 1️⃣ DNS or Connection Issues?
 Try resetting DNS using Cloudflare:
-
+```bash
 echo "nameserver 1.1.1.1" | sudo tee /etc/resolv.conf > /dev/null
 echo "nameserver 1.0.0.1" | sudo tee -a /etc/resolv.conf > /dev/null
-
+```
 2️⃣ APT Lock Issues?
-
+```bash
 sudo rm /var/lib/dpkg/lock /var/lib/dpkg/lock-frontend
 sudo dpkg --configure -a
-
+```
 3️⃣ Pip Installation Fails?
-
+```bash
 pip install --upgrade pip
+```
 
 4️⃣ Playwright Installation Fails?
-
+```bash
 python -m playwright install
-
+```
 
 ---
 
