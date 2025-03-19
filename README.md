@@ -128,11 +128,11 @@ chromium → A lightweight browser for web automation.
 ---
 **📍Download the tool ☠️Black-dragon🐉 using this command **
 ```bash
-git clano  The tool is not available now, it is under development. 
+git clano https://github.com/dddhhr/Black-dragon.1.0.1
 ```
 Decompress 
 ```bash
-Tool not available now will be available soon 
+unzip  Black-dragon.zip
 
 ```
 🐍 Install Python Libraries
