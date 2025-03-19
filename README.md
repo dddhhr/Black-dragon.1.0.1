@@ -245,8 +245,8 @@ python -m playwright install
 >  Follow me on Instagram to get all the latest news👨‍💻
 > Contact me through my Facebook account 👨‍💻
 --- 
-- **Instagram: @dddhhr_
+- **Instagram: https://www.instagram.com/dddhhr_/profilecard/?igsh=YXA0bjdpdGhjb3oz
 
-	- **Facebook:https://www.facebook.com/dddhhhr**
+	- **Facebook: https://www.facebook.com/dddhhhr**
 
 
