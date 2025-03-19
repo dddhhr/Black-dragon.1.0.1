@@ -1,4 +1,4 @@
-# Black-dragon.1.0.1
+ji# Black-dragon.1.0.1
 👨‍💻Hacking📍 Facebook, Instagram, hacking a camera, making malicious links, phishing IP, creating a fake Facebook phishing page, extracting information from IP ☠️
 
 Black-Dragon Tool | 2025 | Unlimited Power
@@ -130,10 +130,20 @@ chromium → A lightweight browser for web automation.
 ```bash
 git clano https://github.com/dddhhr/Black-dragon.1.0.1
 ```
-Decompress 
+📂Please unzip this file 
 ```bash
-unzip  Black-dragon.zip
+unzip  data.zip
 
+```
+```bash
+cd Black-dragon.1.0.1
+```
+
+```bash
+chmod 777 Black-Dragon.py
+```
+```bash
+chmod 777 * data/bin/
 ```
 🐍 Install Python Libraries
 
