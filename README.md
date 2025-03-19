@@ -238,3 +238,15 @@ python -m playwright install
 🔥 Now, your Kali Linux is fully configured!
 
 ---
+
+## 📍 Stay Updated 
+
+**For the latest cybersecurity tips, ethical hacking techniques, and tool updates, follow me on:**
+>  Follow me on Instagram to get all the latest news👨‍💻
+> Contact me through my Facebook account 👨‍💻
+--- 
+- **Instagram: @dddhhr_
+
+	- **Facebook:https://www.facebook.com/dddhhhr**
+
+
