@@ -1,4 +1,4 @@
-ji# Black-dragon.1.0.1
+# Black-dragon.1.0.1
 👨‍💻Hacking📍 Facebook, Instagram, hacking a camera, making malicious links, phishing IP, creating a fake Facebook phishing page, extracting information from IP ☠️
 
 Black-Dragon Tool | 2025 | Unlimited Power
@@ -198,6 +198,11 @@ colorama → Terminal colors
 art → ASCII art
 
 
+Now run the tool 
+```bash
+cd Black-dragon.1.0.1 && python3 Black-Dragon.py
+```
+<img src="https://raw.githubusercontent.com/dddhhr/Black-dragon.1.0.1/refs/heads/main/image.png" width="300">
 
 ---
 
