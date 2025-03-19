@@ -116,17 +116,25 @@ Install important tools like Python’s package manager and Chromium browser.
 sudo apt install -y python3-pip
 sudo apt install -y chromium
 ````
-📌 Why?
-```bash
+**📌 Why?**
+
 python3-pip → Manages Python libraries.
-```
-```bash
+
+
 chromium → A lightweight browser for web automation.
-```
+
 
 
 ---
+**📍Download the tool ☠️Black-dragon🐉 using this command **
+```bash
+git clano  The tool is not available now, it is under development. 
+```
+Decompress 
+```bash
+Tool not available now will be available soon 
 
+```
 🐍 Install Python Libraries
 
 Install required Python packages using pip.
@@ -155,6 +163,9 @@ pip install colorama --break-system-packages
 ```
 ```bash
 pip install art --break-system-packages
+```
+```bash
+playwright install
 ```
 📌 What they do:
 
