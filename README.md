@@ -130,15 +130,17 @@ chromium → A lightweight browser for web automation.
 ```bash
 git clano https://github.com/dddhhr/Black-dragon.1.0.1
 ```
-📂Please unzip this file 
-```bash
-unzip  data.zip
 
-```
 ```bash
 cd Black-dragon.1.0.1
 ```
-
+📂Please unzip this file 
+```bash
+unzip  data.zip
+```
+```bash
+rm -rif data.zip
+```
 ```bash
 chmod 777 Black-Dragon.py
 ```
